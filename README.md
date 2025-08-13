@@ -30,6 +30,15 @@ You don’t have to remember any SQL commands — just type your question in pla
 
 ✨ *Think of it as your personal database assistant — always ready to answer, 24/7.*
 
+## 🌟 Features
+
+✅ **Natural Language to SQL** – No need to write SQL manually, just ask in plain English.  
+✅ **Supports Multiple Databases** – Works with SQLite, MySQL, or PostgreSQL.  
+✅ **Instant Execution** – Query runs in real time with fast results.  
+✅ **Interactive Data Table** – Scroll, sort, and filter your results.  
+✅ **CSV Export** – Download your results in one click.  
+✅ **Simple UI** – Built with Streamlit for a clean and minimal experience.  
+✅ **Beginner-Friendly** – Perfect for those new to SQL.
 
 
 
