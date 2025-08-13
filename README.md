@@ -67,26 +67,45 @@ flowchart TD
 **Version Control**
 - Git & GitHub
 
-## ⚙️ Installation
+## ⚙️ Installation & Using
 
 1️⃣ **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/sql-chatbot.git
 cd sql-chatbot
 ```
-**Create a virtual environment**
+2️⃣**Create a virtual environment**
 ```bash
 python -m venv venv
 venv\Scripts\activate 
 ```
-**Install dependencies**
+3️⃣**Install dependencies**
 ```bash
 pip install -r reqq.txt
 ```
-**Run Streamlit**
+4️⃣**Run Streamlit**
 ```bash
 streamlit run app.py
 ```
+
+## 🔧 Setup
+
+1️⃣ **Add your API key**  
+- Create a `.env` file in the project root:
+
+*(Replace with your actual API key from OpenAI or your chosen LLM provider.)*
+
+2️⃣ **Configure your database connection**  
+- Open `config.py` and update with your database details:
+```python
+DB_TYPE = "sqlite"  # or "mysql", "postgresql"
+DB_NAME = "your_database.db"
+DB_USER = "username"      # for MySQL/PostgreSQL
+DB_PASSWORD = "password"  # for MySQL/PostgreSQL
+DB_HOST = "localhost"     # or your DB server address
+
+
+
 
 
 
