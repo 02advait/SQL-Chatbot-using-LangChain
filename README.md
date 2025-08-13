@@ -74,11 +74,19 @@ flowchart TD
 git clone https://github.com/yourusername/sql-chatbot.git
 cd sql-chatbot
 ```
+**Create a virtual environment**
+```bash
+python -m venv venv
+venv\Scripts\activate 
+```
+**Install dependencies**
 ```bash
 pip install -r reqq.txt
 ```
-
-
+**Run Streamlit**
+```bash
+streamlit run app.py
+```
 
 
 
