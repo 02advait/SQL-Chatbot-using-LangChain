@@ -74,7 +74,9 @@ flowchart TD
 git clone https://github.com/yourusername/sql-chatbot.git
 cd sql-chatbot
 ```
-
+```bash
+pip install -r reqq.txt
+```
 
 
 
