@@ -11,10 +11,38 @@ Built with **LangChain** for natural language processing, **Streamlit** for a sl
 Here’s a quick look at the SQL Chatbot in action:
 
 ![SQL Chatbot Demo](assets/demo.gif)
-
-🎯 **Tip:** Include both a short GIF for quick preview and a full-size screenshot for details.
+add video 
 
 ![SQL Chatbot Screenshot](assets/screenshot.png)
+add screenshot
+
+## 🤖 What Does the SQL Chatbot Do?
+
+This chatbot bridges the gap between **natural language** and **SQL queries**.  
+You don’t have to remember any SQL commands — just type your question in plain English.
+
+### 🔍 How It Works for You:
+- **Ask in English** → *"Show me sales in January 2024"*
+- **Chatbot Converts** → Generates the exact SQL statement
+- **Executes & Fetches** → Runs the query on your database
+- **Shows Results** → Displays data in a clean, interactive table
+- **Download Option** → Export your results instantly as a CSV
+
+✨ *Think of it as your personal database assistant — always ready to answer, 24/7.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
