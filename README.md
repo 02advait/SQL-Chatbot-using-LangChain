@@ -52,6 +52,20 @@ flowchart TD
     F --> G[⬇️ Optional: Download Results as CSV]
 ```
 
+## 🛠️ Tech Stack
+
+**Languages & Frameworks**
+- 🐍 Python
+- 🖥️ Streamlit – For the interactive web app
+- 🤖 LangChain – Natural language to SQL conversion
+- 🗄️ SQLite / MySQL / PostgreSQL – Database backend
+- 🐼 Pandas – Data handling & formatting
+
+**APIs & Services**
+- OpenAI API (or your chosen LLM provider)
+
+**Version Control**
+- Git & GitHub
 
 
 
