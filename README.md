@@ -67,7 +67,13 @@ flowchart TD
 **Version Control**
 - Git & GitHub
 
+## ⚙️ Installation
 
+1️⃣ **Clone the repository**
+```bash
+git clone https://github.com/yourusername/sql-chatbot.git
+cd sql-chatbot
+```
 
 
 
