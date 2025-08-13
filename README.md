@@ -118,16 +118,16 @@ Groq API Key = "Enter your Groq Api Key"
 
 ## 📂 Project Structure
 
-sql-chatbot/
-│-- app.py               # Main Streamlit application
-│-- config.py            # Database configuration settings
-│-- requirements.txt     # Python dependencies
-│-- .env.example         # Example environment variables
-│-- README.md            # Project documentation
-│-- assets/              # Screenshots, GIFs, diagrams
-│     ├── demo.gif
-│     ├── screenshot.png
-│     └── flowchart.png
+sql-chatbot/ </br>
+│-- app.py               # Main Streamlit application </br>
+│-- config.py            # Database configuration settings </br>
+│-- requirements.txt     # Python dependencies </br>
+│-- .env.example         # Example environment variables </br>
+│-- README.md            # Project documentation </br>
+│-- assets/              # Screenshots, GIFs, diagrams </br>
+│     ├── demo.gif </br>
+│     ├── screenshot.png </br>
+│     └── flowchart.png </br>
 
 ## 🚀 Future Improvements
 
