@@ -35,12 +35,21 @@ You don’t have to remember any SQL commands — just type your question in pla
 ✅ **Natural Language to SQL** – No need to write SQL manually, just ask in plain English.  
 ✅ **Supports Multiple Databases** – Works with SQLite, MySQL, or PostgreSQL.  
 ✅ **Instant Execution** – Query runs in real time with fast results.  
-✅ **Interactive Data Table** – Scroll, sort, and filter your results.  
-✅ **CSV Export** – Download your results in one click.  
+✅ **CSV Export** – Download your results in one click.  (Ongoing)
 ✅ **Simple UI** – Built with Streamlit for a clean and minimal experience.  
 ✅ **Beginner-Friendly** – Perfect for those new to SQL.
 
 
+## 🔄 How It Works – Flowchart
+
+```mermaid
+flowchart TD
+    A[📝 User Types a Question in English] --> B[🤖 LangChain Processes the Query]
+    B --> C[📜 LLM Generates SQL Statement]
+    C --> D[🗄️ SQL Query Runs on Database]
+    D --> E[📊 Results Fetched using Pandas]
+    E --> F[💻 Displayed in Streamlit App]
+    F --> G[⬇️ Optional: Download Results as CSV]
 
 
 
