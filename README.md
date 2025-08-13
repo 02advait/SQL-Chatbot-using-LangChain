@@ -93,12 +93,15 @@ streamlit run app.py
 1️⃣ Fronm left sidebar choose between </br>
 - SQLLite </br>
 - MYSQL </br>
+
 2️⃣ If SQLLite </br>
 - Input your GROQ LLM key </br>
   (Note this code is hard coded for GROQ only) </br>
   (I will be using multiple LLMs in Future Improvements) </br>
+
 3️⃣ If MYSQL </br>
 Configure your database connection </br>
+
 ```python
 MySQL Hostname = "Enter your host name"
 MySQL Username = "Enter your username"
