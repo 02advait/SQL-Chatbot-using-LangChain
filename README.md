@@ -88,21 +88,23 @@ pip install -r reqq.txt
 streamlit run app.py
 ```
 
-## 🔧 Setup
+## 🔧 How to use
 
-1️⃣ **Add your API key**  
-- Create a `.env` file in the project root:
-
-*(Replace with your actual API key from OpenAI or your chosen LLM provider.)*
-
-2️⃣ **Configure your database connection**  
-- Open `config.py` and update with your database details:
+1️⃣ Fronm left sidebar choose between
+- SQLLite
+- MYSQL
+2️⃣ If SQLLite
+- Input your GROQ LLM key
+  (Note this code is hard coded for GROQ only)
+  (I will be using multiple LLMs in Future Improvements)
+3️⃣ If MYSQL
+Configure your database connection
 ```python
-DB_TYPE = "sqlite"  # or "mysql", "postgresql"
-DB_NAME = "your_database.db"
-DB_USER = "username"      # for MySQL/PostgreSQL
-DB_PASSWORD = "password"  # for MySQL/PostgreSQL
-DB_HOST = "localhost"     # or your DB server address
+MySQL Hostname = "Enter your host name"
+MySQL Username = "Enter your username"
+MySQL Password = "Enter your password"
+MySQL Database Name = "Enter your database name"
+Groq API Key = "Enter your Groq Api Key"
 ```
 
 ## Ask your question
