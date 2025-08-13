@@ -1,4 +1,4 @@
-# 🐦🐦🐦 SQL Chatbot using LangChain & Streamlit 🐦🐦🐦
+# 🐦🐦 SQL Chatbot using LangChain & Streamlit 🐦🐦
 
 🚀 A smart, conversational chatbot that lets you interact with your SQL database **using plain English** 
  — no SQL knowledge required!  
