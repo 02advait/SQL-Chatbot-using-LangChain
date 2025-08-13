@@ -83,7 +83,7 @@ venv\Scripts\activate
 ```bash
 pip install -r reqq.txt
 ```
-4️⃣**Run Streamlit**
+4️⃣**Run the app**
 ```bash
 streamlit run app.py
 ```
@@ -103,13 +103,42 @@ DB_NAME = "your_database.db"
 DB_USER = "username"      # for MySQL/PostgreSQL
 DB_PASSWORD = "password"  # for MySQL/PostgreSQL
 DB_HOST = "localhost"     # or your DB server address
+```
+
+## Ask your question
+```chat
+"Show me the top 5 products by sales in 2024"
+```
+ - Get your results instantly
+
+## 📂 Project Structure
+
+sql-chatbot/
+│-- app.py               # Main Streamlit application
+│-- config.py            # Database configuration settings
+│-- requirements.txt     # Python dependencies
+│-- .env.example         # Example environment variables
+│-- README.md            # Project documentation
+│-- assets/              # Screenshots, GIFs, diagrams
+│     ├── demo.gif
+│     ├── screenshot.png
+│     └── flowchart.png
+
+## 🚀 Future Improvements
+
+- 🔄 **Multi-LLM Support** – Compare results from different LLMs (using LangGraph).
+- 📊 **Advanced Analytics** – Support for more complex analytical SQL queries.
+- 🔐 **User Authentication** – Secure access with login for private databases.
+- 🌐 **Cloud Deployment** – Host on platforms like Streamlit Cloud, AWS, or Hugging Face Spaces.
+- 🗣️ **Voice Input** – Ask database queries using speech-to-text.
+- 📅 **Scheduled Reports** – Automatically email query results at set intervals.
 
 
+## 📜 License
 
+This project is licensed under the **MIT License** — you’re free to use, modify, and distribute it, provided you include the original license notice.
 
-
-
-
+See the [LICENSE](LICENSE) file for full details.
 
 
 
